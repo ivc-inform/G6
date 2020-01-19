@@ -25,7 +25,7 @@ shelljs.ls(resolve(__dirname, 'plugins')).forEach(pluginPath => {
 });
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   devtool: 'cheap-source-map',
   entry,
   output: {
